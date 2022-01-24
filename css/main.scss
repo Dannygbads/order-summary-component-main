@@ -1,0 +1,125 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    background: hsl(225, 100%, 94%)  url("https://sakshamian.github.io/order-summary/main.svg") no-repeat ;
+    background-size:contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.card--img{
+     border-top-left-radius:25px;
+    border-top-right-radius: 25px;
+    width: 400px;
+}
+#card{
+    background: white;
+    border-radius: 25px;
+    width:400px;
+    height: 650px;
+}
+.hero{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
+}
+.hero-head{
+    line-height: 0;
+  
+    font-size: 25px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+.hero-txt{
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 17px;
+    color: hsl(223, 47%, 23%);
+    opacity: 0.5;
+    margin-top: -10px;
+    padding-bottom: 0.75em;
+}
+#payment{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+     background:  #f2f2f2;
+     margin-left: 2em;
+     margin-right: 2em;
+     border-radius: 10px;
+}
+.music-icon{
+    margin-right: 1em;
+}
+.annual-plan{
+    margin:0;
+    padding: 0;
+    
+
+}
+.annual-price{
+    margin:0;
+    padding: 0;
+    opacity: 0.5;
+
+}
+.subscription{
+    display: flex;
+    align-items: center;
+   
+}
+.payment{
+    display:flex;
+    flex-direction: column;
+    
+}
+#change-link:hover{
+   opacity: 0.5;
+}
+.change-link{
+    text-decoration: none;
+}
+.payment-btn{
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
+
+    
+    
+}
+.btn{
+    width: 336px;
+    height: 3em;
+    border-radius: 10px;
+    border-style: none;
+    background: rgb(54, 54, 225);
+    color: white;
+    font-size: 1em;
+}
+.btn:hover{
+    opacity: 0.7;
+    box-shadow: 0px 22px 57px rgb(127, 127, 202); 
+   
+}
+.cancel-payment{
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+
+    font-size: 1em;
+      
+}
+.cancel-order-link{
+    text-decoration: none;
+    color: black;   
+}
+.cancel-order-link:hover{
+    opacity: 0.7;
+}
+
+
